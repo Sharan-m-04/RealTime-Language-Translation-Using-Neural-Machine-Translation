@@ -9,7 +9,7 @@ from PIL import Image
 import easyocr
 from deep_translator import GoogleTranslator
 
-
+#Main Function to Translate the languages
 class LanguageTranslatorApp:
     def __init__(self, root):
         self.root = root
