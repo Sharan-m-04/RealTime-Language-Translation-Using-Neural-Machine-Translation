@@ -191,7 +191,7 @@ class LanguageTranslatorApp:
         if time.time() - self.last_keypress_time >= self.debounce_delay:
             self.translate_text()
 
-
+#main function
 if __name__ == "__main__":
     root = tk.Tk()
     app = LanguageTranslatorApp(root)
